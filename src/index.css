@@ -1,2 +1,14 @@
 @import url("bootstrap");
 @import url("bootstrap-icons");
+
+.home-card-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.detail-img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
