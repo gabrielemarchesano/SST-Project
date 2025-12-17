@@ -14,7 +14,7 @@ export default function Header(){
           <nav className="navbar navbar-light">
             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active">Viaggi</Link>
+                <Link className="nav-link active" to={"/"}>Viaggi</Link>
               </li>
             </ul>
           </nav>

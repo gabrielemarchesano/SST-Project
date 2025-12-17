@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
 import Homepage from "./pages/Homepage";
 import TravelPage from "./pages/TravelPage";
+import viaggi from "./data/data";
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<DefaultLayout />}>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/details/:id" element={<TravelPage />} />
+            <Route path="/" element={<Homepage viaggi={viaggi} />} />
+            <Route path="/details/:id" element={<TravelPage viaggi={viaggi} />} />
           </Route>
         </Routes>
       </BrowserRouter>

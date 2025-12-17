@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import viaggi from "../data/data";
 import { Link } from "react-router-dom";
 
-export default function Homepage() {
+export default function Homepage({ viaggi }) {
 
   const [travels, setTravels] = useState(viaggi);
   const [search, setSearch] = useState("");
