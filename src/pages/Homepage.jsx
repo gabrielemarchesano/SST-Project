@@ -67,7 +67,11 @@ export default function Homepage({ viaggi }) {
               travels.map(viaggio => (
                 <div className="col" key={viaggio.id}>
                   <div className="card">
-                    <img className="card-img-top p-4" src="https://placehold.co/100" alt="Title" />
+                    <img
+                      className="card-img-top p-4 home-card-img"
+                      src={viaggio.immagine || "https://placehold.co/300x200"}
+                      alt={`Viaggio a ${viaggio.destinazione}`}
+                    />
                     <div className="card-body px-4 pb-4 pt-0">
                       <div className="destination d-flex justify-content-between">
                         <p className="card-text">Rotta:</p>
