@@ -1,6 +1,10 @@
 @import url("bootstrap");
 @import url("bootstrap-icons");
 
+.detail-travel-card {
+  height: 400px;
+}
+
 .home-card-img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -11,6 +15,7 @@
   width: 100%;
   object-fit: cover;
   height: 100%;
+
 }
 
 .rotate::before {

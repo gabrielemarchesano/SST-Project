@@ -42,9 +42,9 @@ export default function TravelPage({ viaggi }) {
   return (
     <div className="container w-50 my-3">
       {/* TRIP CARD */}
-      <div className="card mb-3">
-        <div className="row g-0">
-          <div className="col-md-8">
+      <div className="card detail-travel-card mb-3">
+        <div className="row h-100 g-0">
+          <div className="col-md-8 h-100">
             <img
               src={viaggio.immagine || "https://placehold.co/300x200"}
               className="rounded-start detail-img"
